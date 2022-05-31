@@ -15,10 +15,10 @@ requires = [
     "camelot-py[cv]>=0.7.1",
     "celery>=4.1.1",
     "Click>=7.0",
-    "configparser>=3.5.0, <3.6.0",
-    "Flask>=1.0.2",
+    "configparser>=5.2.0",
+    "Flask>=2.1.2",
     "SQLAlchemy>=1.2.12",
-    "Werkzeug<1.0.0",
+    "Werkzeug>=2.0",
 ]
 mysql = ["mysqlclient>=1.3.6"]
 all_requires = requires + mysql
